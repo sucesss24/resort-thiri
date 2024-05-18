@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation System</title>
+    <!-- Add your CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+<header>
+    <h1>Table Reservation System</h1>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container flex">
+        <h1 class="logo">.</h1>
+        <ul>
+            <li><a href="#reservation-form">Table Reservations</a></li>
+            <li><a href="#order">Order Management</a></li>
+            <li><a href="#menu">Menu Updates</a></li>
+            <li><a href="#billing">Billing</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <section id="reservation-form">
+        <h2>Make a Reservation</h2>
+        <form action="reserve.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <button type="submit">Reserve Table</button>
+        </form>
+    </section>
+    </main>
+    
+    <title>Image Card Example</title>
+    <style>
+        /* CSS for the card container */
+        .card {
+            border-radius: 30px 0 30px 0; /* Rounded corners */
+            box-shadow: 0 40px #ffff; /* Box shadow for depth effect */
+            overflow: hidden; /* Hide overflowing content */
+        }
+        
+        /* CSS for the image */
+        .card img {
+            width: 100%; /* Make the image fill the container */
+            height: auto; /* Preserve aspect ratio */
+            display: block; /* Make it a block-level element */
+        }
+    </style>
+</head>
+<body>
+    <img src="istockphoto-1222374913-612x612.jpg" alt="" >
+
+
+
+
+    <div class="container">
+        <!-- Image positioned in the bottom-right corner -->
+        <img src="istockphoto-1027377030-612x612.jpg" alt="" class="right-corner-image">
+    </div>
+
+    
+        
+    <header>
+        <section>
+            <h2></h2>
+        </section>
+    </header>
+
+
+
+<footer>
+    <p>&copy; 2024 Restaurant Reservation System</p>
+</footer>
+
+</body>
+</html>
+
+   
