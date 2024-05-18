@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    
+
+    <title>Restaurant Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+    <title>Document</title>
+    <style>
+        
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    
+        
+    
+        .card {
+            background-color: royalblue;; /* Set your desired background color */
+            padding: 20px; /* Adjust padding as needed */
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Restaurant Reservation System</h1>
+    <h1> THE INDIAN RESTAURANT SYSTEM</h1>
+    <nav>
+        <ul>
+            <li><a href="#table-reservation" class="text">Table Reservations</a></li>
+            <li><a href="#order" class="text">Order Management</a></li>
+            <li><a href="#menu" class="text">Menu Updates</a></li>
+            <li><a href="#billing" class="text">Billing</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="languages">
+        <div class="centered-text">
+            <h2>Restora POS - Online Restaurant Reservation System</h2>
+            <p>Restaurant business activities are getting streamlined through technology like the reservation of restaurants or booking any table without going to the restaurant is not exceptional nowadays. Restora POS-online restaurant reservation system can enhance the efficiency of restaurants operations and drive your business steadily.</p>
+            <div class="button-container">
+                <button>Lets Drive</button>
+            </div>
+        </div>
+        <img src="pos-integration-system.webp" alt="" class="right-corner-image" width="400">
+    </section>
+</main>
+
+<div class="container">
+    <img src="download (3).jpeg" alt="" class="right-corner-image" width="700">
+</div>
+
+<img src="online-restaurant-booking-system.webp" alt="" width="550"> <!-- Specify width attribute to make the image smaller --> 
+<p><font color="#FFFFF"><h3>Online Restaurant Booking System-An Intelligent Choice For Your Restaurant
+    Smart restaurant owners are proactive, dynamic and tech-savvy as they know what is trendy and what exactly the requirements of the contemporary customers. Online restaurant booking system provides a time worthy business solution to the restaurant business owners in a cost-effective way.
+</h3></font></p>
+
+<main>
+    <p>
+        <h1><font color="#FFFFF"> HOW DOES THE ONLINE RESTAURANT RESERVATION SYSTEM WORK?</font></h1>
+    </p>
+</main>
+<p><font color="#FFFFF"><h3>Restaurant booking software makes the restaurant services more convenient. Now, if anyone wants to book a table at a restaurant, the restaurant table booking system or dining reservation system assists in doing this smoothly and accurately.If you look at the previous restaurant booking process, you can easily
+     get the benefits of the online restaurant reservation system. Let’s see how the table booking software works.</h3></font></p>
+
+<div class="container flex">
+    <div class="card">
+        <img src="images3.png" alt=""width="100">
+        <p><h2><font color="#00ff00">First Step -Receive Reservation</font><h2></p>
+        <p><h3><font color="#FFFFF">The guests visit your restaurant website and check the availability 
+            of your restaurant’s table on particular date and time</font><h3></p>
+    </div>
+    <div class="card">
+        <img src="images 1.png" alt=""width="100">
+        <p><h2><font color="#00ff0"> Second Step -Accept Reservation & Confirm</font></h2></p>
+        <p><h3><font color="#FFFFF">When you see the request of table booking through the online reservation system, all provided
+             information will appear. Then you can easily confirm the reservation.</font></h3></p>
+    </div>
+    <div class="card">
+        <img src="images.png" alt="" width="100">
+        <p><h2><font color="#00ff0"> Third Step - Remind the Guest</font></h2></p>
+        <p><h3><font color="#FFFFF">In the confirmation stage, your guest will be confirmed by an SMS/Email. But you have to send a reminder SMS/Email to the desired guest about the booking.
+             It’s automatically done through the reservation system.</font></h3></p>
+    </div>
+    <div class="card">
+        <img src="images 2.png" alt="" width="100">
+        <p><h2><font color="#00ff0"> Final Step  -Welcome & Serve</font></h2></p>
+        <p><h3><font color="#FFFFF">After checking in, the guest can see the waitlist shows the reservation. Then the host helps the guest to take the pre-assigned table. Finally, you are ready to serve the guest.</font></h3></p>
+    </div>
+</div>
+
+<header>
+    <h1>Table Reservation System</h1>
+    <nav>
+        <ul>
+            <li><a href="#reservation-form"><font color="#FFFFF">Table Reservations</font></a></li>
+            <li><a href="#order"><font color="#FFFFF">Order Management</font></a></li>
+            <li><a href="#menu"><font color="#FFFFF">Menu Updates</font></a></li>
+            <li><a href="#billing"><font color="#FFFFF">Billing </font></a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<main>
+    <section id="reservation-form">
+        <h2>Make a Reservation</h2>
+        <form action="reserve.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            
+            
+
+
+
+
+   
+
+<button id="reserveButton">Reserve Table</button>
+
+<script>
+// Function to display the success message
+function showSuccessMessage() {
+    alert("Successfully booked!");
+}
+
+// Add event listener to the "Reserve Table" button
+document.getElementById("reserveButton").addEventListener("click", showSuccessMessage);
+</script>
+
+</body>
+</html>
+
+
+
+   
+  
+   
+</script>
+
+
+        </form>
+    </section>
+</main>
+<div class="container">
+    <img src="download (5).jpeg" alt="" class="right-corner-image" width="500">
+</div>
+
+
+<img src="1920X850B.webp" alt="" width="500" height="500" >
+
+
+    
+   
+
+<div class="container">
+    <!-- Image positioned in the bottom-right corner -->
+    <style>
+        /* CSS to set images parallel */
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .image-container img {
+            max-width: 100%; /* Adjust as needed */
+            height: 50px;
+        }
+        </style>
+        
+   <header>
+    <h1><font color="#FFFFF">Menu Updates</font></h1>
+    <nav>
+        <ul>
+            <li><a href="#reservation-form"><font color="#FFFFF">Table Reservations</font></a></li>
+            <li><a href="#order"><font color="#FFFFF">Order Management</font>t</a></li>
+            
+            <li><a href="#menu"><font color="#FFFFF">Menu Updates</font></a></li>
+            <li><a href="#billing"><font color="#FFFFF">Billing</font></a></li>
+        </ul>
+    </nav>
+</header>
+
+<img src="biri.jpeg" alt=""  width="300" height="250">
+<img src="non.jpeg" alt="" width="300">
+<img src="cake.jpeg" alt="" width="300" height="250">
+<img src="soup.jpeg" alt="" width="300" height="250">
+
+
+    <style>
+    /* CSS to set images parallel */
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image-container img {
+        max-width: 45%; /* Adjust as needed */
+        height: auto;
+    }
+</style>
+<div class="container">
+
+<img src="kfc.jpg" alt="" class="right-corner-image" width="5">
+</div>
+        <div class="container">
+            <img src="download 1.jpeg" alt="" class="right-corner-image" width="400">
+        
+        </div>
+        
+        <main>
+        <div class="menu">
+            <h1>Menu Card</h1>
+            <div class="menu-items">
+                <div class="menu-item">
+                    
+        
+        <div style="text-align: center;">
+            <div class="menu">
+                <h1><font color="#fffff">$ Menu Card</font></h1>
+      
+
+        <ul>
+            <li><a href="Appetizer"><h2>* Appetizer</h2></a></li>
+            <ul>
+                <li><a href="Bruschetta">Bruschetta</a></li>
+                <li><a href="Caesar Salad">Caesar Salad</a></li>
+            </ul>
+            </li>
+            <li><a href="Main Course"><h2>* Main Course</h2</a>
+            <ul>
+                <li><a href="Grilled Salmon">Grilled Salmon</a></li>
+                <li><a href="Spaghetti Bolognese">Spaghetti Bolognese</a></li>
+            </ul>
+            </li>
+            <li><a href="Desserts"><h2>* Desserts</h2></a>
+            <ul>
+                <li><a href="Tiramisu">Tiramisu</a></li>
+                <li><a href="Chocolate Lava Cake">Chocolate Lava Cake</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container">
+    <img src="images (2).jpeg" alt=""  width="400">
+
+    </div>
+    <img src="kfc.jpg" alt=""  width="400" height="400">
+</main>
+
+
+
+
+
+<header>
+    <h1>Billing System </h1>
+    <nav>
+        <ul>
+            <li><a href="#table-reservation" class="text">Table Reservations</a></li>
+            <li><a href="#order" class="text">Order Management</a></li>
+            <li><a href="#menu" class="text">Menu Updates</a></li>
+            <li><a href="#billing" class="text">Billing</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Total Amount</title>
+    <style>
+        /* CSS styles here */
+        .calculator-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid blue;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color:white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calculator-container">
+    <h2><font color="#FFFFF">Calculate Total Amount</font></h2>
+    <label for="price"><font color="#FFFFF">Price:</font></label>
+    <input type="number" id="price" name="price" placeholder="Enter price" required>
+    <label for="quantity"><font color="#FFFFF">Quantity</font></label>
+    <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" required>
+    <button id="calculate-total"><font color="#FFFFF">Calculate Total</font></button>
+    <div id="total"></div>
+</div>
+
+<script>
+    document.getElementById('calculate-total').addEventListener('click', function() {
+        // Get the price and quantity input values
+        var price = parseFloat(document.getElementById('price').value);
+        var quantity = parseInt(document.getElementById('quantity').value);
+
+        // Calculate the total amount
+        var total = price * quantity;
+
+        // Display the total amount
+        document.getElementById('total').innerHTML = 'Total Amount: $' + total.toFixed(2);
+        document.getElementById('total').style.color = 'white'; // Change color to blue
+
+    });
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing System</title>
+    <style>
+        /* CSS styles here */
+        .billing-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #success-message {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="billing-container">
+    <h2><font color="#FFFFF">Payment Method</font></h2>
+    <label for="payment-method"><font color="#FFFFF">Select Payment Method:</font></label>
+    <select id="payment-method" name="payment-method">
+        <option value="credit-card">Credit Card</option>
+        <option value="debit-card">Debit Card</option>
+        <option value="paypal">PayPal</option>
+        <!-- Add more payment methods as needed -->
+    </select>
+    <button id="submit-payment">Submit Payment</button>
+</div>
+
+<div id="success-message" style="display: none;">
+    <p>Payment submitted successfully!</p>
+</div>
+
+<script>
+    document.getElementById('submit-payment').addEventListener('click', function() {
+        var paymentMethod = document.getElementById('payment-method').value;
+        var successMessage = document.getElementById('success-message');
+
+        // Perform actions based on the selected payment method
+        switch(paymentMethod) {
+            case 'credit-card':
+                // Handle credit card payment submission
+                break;
+            case 'debit-card':
+                // Handle debit card payment submission
+                break;
+            case 'paypal':
+                // Handle PayPal payment submission
+                break;
+            // Add cases for additional payment methods as needed
+        }
+
+        // Display success message
+        successMessage.style.display = 'block';
+
+        // Optional: Hide success message after a certain time
+        setTimeout(function() {
+            successMessage.style.display = 'none';
+        }, 3000); // 3000 milliseconds (3 seconds)
+    });
+</script>
+
+
+    <header>
+        /<header>
+
+            <title>Restaurant Reservation System</title>
+            </header>
+            </head>
+            <body>
+            
+            <header>
+                <h1>Online Restaurant Reservation System</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#table-reservation" class="text">Table Reservations</a></li>
+                        <li><a href="#order" class="text">Order Management</a></li>
+                        <li><a href="#menu" class="text">Menu Updates</a></li>
+                        <li><a href="#billing" class="text">Billing</a></li>
+                    </ul>
+                    <P>ENJOY YOUR FOOD ENJOY YOUR LIFE!</P>
+
+    </header>
+
+                </nav>
+
+
+            </header>
+        
+        
+            
+  <title>Video Example</title>
+  <style>
+    /* Style the video player */
+    video {
+      width: 300%;
+      max-width: 1500px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>My Video</h2>
+  <video controls>
+    <source src="WhatsApp Video 2024-05-16 at 23.04.52_7d96c25e.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+
+    <title>Reduced Footer Size</title>
+    <style>
+      /* Style the footer */
+      footer {
+        background-color: black;
+        padding: 3px; /* Adjust the padding to reduce the size */
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Main Content</h1>
+    <!-- Your main content here -->
+    
+    <footer>
+
+       <p><div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>For reservations or inquiries, please contact us: Phone: 123-456-7890 (Email: info@restaurant.com) -Address: 123 Main Street, City, Country &copy 2024 Restaurant Reservation System</p>
+    </footer>
+  </body>
+  </html>
+
+

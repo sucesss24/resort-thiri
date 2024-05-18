@@ -1,0 +1,251 @@
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Times New Roman', Times,serif;
+    color: whitesmoke;
+    line-height: 1.6;
+    background: linear-gradient(to right, lightgreen 20%, darkgreen 20%);
+    /* Combined background gradient */
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.moving-image {
+    position: relative;
+    top: 100px;
+    right: 50px;
+    margin-left: 50px;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 20px;
+    left: 40px;
+}
+
+.text {
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 20px 20px;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.shifted-paragraph {
+    margin-right: 30px; /* Adjust the margin-left value to shift the paragraph to the right */
+}
+
+.container {
+    position: relative;
+}
+
+.right-corner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.container.flex {
+    display: flex; /* Use flexbox */
+}
+
+.card {
+    margin-right: 200px;
+    background-color: white; /* Add space between images */
+}
+
+.card:last-child {
+    margin-right: 0; /* Remove margin from the last image */
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 1.6;
+    background: linear-gradient(to right, lightgreen 20%, darkgreen 20%);
+    /* Combined background gradient */
+    background-image: url("chair.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Fix the background image */
+}
+.moving-image {
+    position: relative; /* Set position relative */
+}
+
+.moving-image img {
+    position: absolute; /* Set position absolute */
+    top: 200px; /* Adjust as needed */
+    left: 499px; /* Adjust as needed */
+}
+.container.flex {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.card {
+    margin-right: 20px; /* Add space between cards */
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; /* Adjust the width as needed */
+    text-align: center; /* Center the text */
+}
+
+
+
+.menu {
+    text-align: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 20px; /* Gap between grid items */
+}
+
+
+
+.menu-item {
+    background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.menu-item h2 {
+    margin-bottom: 10px;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+}
+.billing-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#success-message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+
